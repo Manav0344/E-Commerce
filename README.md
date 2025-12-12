@@ -33,20 +33,4 @@ CSS Modules / Custom CSS	Styling
 
 
 
-📂 Project Structure
-E-Commerce/
-│── public/
-│── src/
-│   ├── common/
-│   │   ├── Header.jsx
-│   │   └── Footer.jsx
-│   ├── Components/
-│   │   ├── Home.jsx
-│   │   ├── ProductList.jsx
-│   │   └── ProductDetails.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
-│── package.json
-│── vite.config.js
-│── README.md
+d
