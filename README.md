@@ -1,36 +1,44 @@
+# E-Commerce React App
 
-🛒 E-Commerce Web App
+A modern and responsive **E-Commerce website** built with **React.js**, **Vite**, and **React Router**. This project demonstrates the development of an online shopping platform with product listings, detailed product pages, and cart functionality. It features a clean and user-friendly interface suitable for both desktop and mobile devices.
 
-A modern and responsive E-Commerce website built using React, Vite, React Router, and modern UI components.
-This project includes essential e-commerce features like product listing, detailed product pages, cart functionality, and a clean layout with Header & Footer components.
+## Features
 
-🚀 Live Demo
+- **Responsive Design**: Works seamlessly on desktops, tablets, and mobile devices.
+- **Product Listing Page**: View all available products with images, names, and prices.
+- **Product Details Page**: Detailed view of each product with description and add-to-cart option.
+- **Shopping Cart**: Add, remove, and view products in the cart. Cart data is stored in `localStorage`.
+- **Routing**: Smooth page navigation using **React Router**.
+- **Reusable Components**: Components like `Header`, `Footer`, `ProductCard`, and `Cart` are reusable across the project.
+- **Modern UI**: Clean and minimalistic user interface designed for a better shopping experience.
+- **Fast Development**: Built with **Vite** for instant reloads and optimized build performance.
 
-🔗 https://manav0344.github.io/E-Commerce
+## Technologies Used
 
-📌 Features
+- **Frontend**: React.js, HTML5, CSS3, JavaScript
+- **Routing**: React Router
+- **State Management**: React `useState` and `localStorage` for cart
+- **Build Tool**: Vite
+- **Deployment**: GitHub Pages / Netlify
 
-✅ Modern & responsive UI
-✅ Clean and reusable React components
-✅ Product listing page
-✅ Product detail page
-✅ Dynamic routing using React Router
-✅ Toast notifications
-✅ Smooth navigation
-✅ Github Pages deployment with Hash Router
-✅ Fast performance using Vite
+## Project Structure
 
-🧩 Tech Stack
-Technology	Purpose
-React	UI development
-Vite	Faster build tool
-React Router DOM	Page routing
-React Toastify	Alerts & notifications
-Lucide Icons	Modern icon library
-CSS Modules / Custom CSS	Styling
-
-
-
-
-
+E-Commerce/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ProductCard.jsx
+│   │   └── Cart.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── ProductList.jsx
+│   │   └── ProductDetails.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+├── package.json
+└── README.md
 
